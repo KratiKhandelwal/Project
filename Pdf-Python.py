@@ -4,8 +4,8 @@ reader = PyPDF2.PdfReader('Atomic Habits.pdf') #read the pdf file
 page = reader.pages[3] # reading page by giving a specific page number
 print(page.extractText()) # used to extract text from the page
 
-#print(reader.getNumPages())
-#print(reader.getPage(3).extract_text())
+#print(reader.getNumPages()) #get total number of pages 
+#print(reader.getPage(3).extract_text()) # another way to extract a particular page
 
 # Retrieve 10 pages text from a pdf .
 
